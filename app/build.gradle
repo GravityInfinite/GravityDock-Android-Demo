@@ -1,0 +1,32 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'com.gravitydock.demo'
+    compileSdk 34
+
+    defaultConfig {
+        applicationId "com.gravitydock.demo"
+        minSdk 24
+        targetSdk 34
+        versionCode 1
+        versionName "1.0"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+dependencies {
+    // GravityDockSDK 统一聚合 SDK（最新版本见发版记录页）
+    implementation "cn.gravity.dock:GravityDockSDK:1.0.0"
+}

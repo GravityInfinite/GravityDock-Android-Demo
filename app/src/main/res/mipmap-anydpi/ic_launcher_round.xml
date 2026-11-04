@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- API 26 以下设备的圆形图标回退（直接使用合成矢量图） -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <path
+        android:fillColor="#1E88E5"
+        android:pathData="M54,0a54,54 0,1 1,-0.1 0z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M30,38h48v8h-48z M30,52h48v8h-48z M30,66h32v8h-32z" />
+</vector>
