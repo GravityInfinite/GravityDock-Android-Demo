@@ -1,9 +1,10 @@
 package com.gravitydock.demo;
 
-import android.app.Activity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Toast;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.gravitydock.sdk.GravityDockPayParams;
 import com.gravitydock.sdk.GravityDockSDK;
@@ -24,7 +25,7 @@ import org.json.JSONObject;
  * 用户属性（user_set/user_setOnce/increment/max/min/append/uniqAppend/unset/delete）、
  * 公共事件属性、立即上报以及游戏生命周期（gameBegin/gameEnd）、浮标、退出等接口。
  */
-public class MainActivity extends Activity {
+public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

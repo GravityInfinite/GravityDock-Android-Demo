@@ -27,6 +27,9 @@ android {
 }
 
 dependencies {
+    // AndroidX 基础库（appcompat 会传递引入 androidx.core / annotation / lifecycle 等）
+    implementation "androidx.appcompat:appcompat:1.6.1"
+
     // GravityDockSDK 统一聚合 SDK（最新版本见发版记录页）
     implementation "cn.gravity.dock:GravityDockSDK:1.0.0"
 }
